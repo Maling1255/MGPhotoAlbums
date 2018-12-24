@@ -11,6 +11,7 @@
 #import "MGPhotoAlbums.h"
 #import "MGAlbumTool.h"
 #import "ViewController.h"
+#import <Photos/Photos.h>
 
 static NSString * const reuseidentifier = @"assetCellID";
 
@@ -57,8 +58,34 @@ static NSString * const reuseidentifier = @"assetCellID";
 {
    ViewController *vc = self.navigationController.viewControllers[0];
     
-    if (vc.displayAlbum) {
-        vc.displayAlbum(@[@"dd", @"aa", @"ss"]);
+   __block NSMutableArray *images = [NSMutableArray array];
+    
+    for (int i = 0; i < self.conllection.albumValue.count; i++) {
+        
+        for (NSIndexPath *index in self.selectedArray) {
+            
+            if (index.row == i) {
+                
+                PHAsset *asset = self.conllection.albumValue[i];
+                
+                [[PHImageManager defaultManager] requestImageDataForAsset:asset options:[PHImageRequestOptions new] resultHandler:^(NSData * _Nullable imageData, NSString * _Nullable dataUTI, UIImageOrientation orientation, NSDictionary * _Nullable info) {
+                    
+                    UIImage *image = [UIImage imageWithData:imageData];
+                    
+                    [images addObject:image];
+                   
+                    if (images.count == self.selectedArray.count) {
+                        
+                        if (vc.displayAlbum) {
+                            vc.displayAlbum(images);
+                        }
+                    }
+                    
+                }];
+                
+                break;
+            }
+        }
     }
     
     [self.navigationController popToViewController:vc animated:YES];
@@ -87,7 +114,6 @@ static NSString * const reuseidentifier = @"assetCellID";
         
         weakSelf.selectedArray = array.mutableCopy;
     }];
-
     
     return cell;
 }

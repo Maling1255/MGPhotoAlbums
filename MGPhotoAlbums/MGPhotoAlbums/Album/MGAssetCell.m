@@ -56,6 +56,8 @@
     self.selectBtnEvent = selectBtnEvent;
     
     self.complete = complete;
+    
+    
 }
 
 - (void)markNumber:(id)number selected:(BOOL)selected
