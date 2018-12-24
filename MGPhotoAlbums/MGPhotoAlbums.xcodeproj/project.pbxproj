@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8F0942021CA66F70064D3C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0941F21CA66F70064D3C9 /* AppDelegate.m */; };
+		F8F0942321CA66F70064D3C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0942221CA66F70064D3C9 /* ViewController.m */; };
+		F8F0942621CA66F70064D3C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F0942421CA66F70064D3C9 /* Main.storyboard */; };
+		F8F0942821CA66F90064D3C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F0942721CA66F90064D3C9 /* Assets.xcassets */; };
+		F8F0942B21CA66F90064D3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8F0942921CA66F90064D3C9 /* LaunchScreen.storyboard */; };
+		F8F0942E21CA66F90064D3C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0942D21CA66F90064D3C9 /* main.m */; };
+		F8F0943821CA66F90064D3C9 /* MGPhotoAlbumsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0943721CA66F90064D3C9 /* MGPhotoAlbumsTests.m */; };
+		F8F0944321CA66F90064D3C9 /* MGPhotoAlbumsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0944221CA66F90064D3C9 /* MGPhotoAlbumsUITests.m */; };
+		F8F0945421CA6A110064D3C9 /* MGAlbumsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0945221CA6A110064D3C9 /* MGAlbumsListController.m */; };
+		F8F0945521CA6A110064D3C9 /* MGAlbumsListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F0945321CA6A110064D3C9 /* MGAlbumsListController.xib */; };
+		F8F0945821CA6D9E0064D3C9 /* MGPhotoAlbums.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0945721CA6D9E0064D3C9 /* MGPhotoAlbums.m */; };
+		F8F0945C21CB62F60064D3C9 /* MGAlbumsListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0945A21CB62F60064D3C9 /* MGAlbumsListCell.m */; };
+		F8F0945D21CB62F60064D3C9 /* MGAlbumsListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F0945B21CB62F60064D3C9 /* MGAlbumsListCell.xib */; };
+		F8F0946A21CB6D730064D3C9 /* MGAssetCollectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0946821CB6D730064D3C9 /* MGAssetCollectionController.m */; };
+		F8F0946F21CB6FE00064D3C9 /* MGAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0946D21CB6FE00064D3C9 /* MGAssetCell.m */; };
+		F8F0947021CB6FE00064D3C9 /* MGAssetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8F0946E21CB6FE00064D3C9 /* MGAssetCell.xib */; };
+		F8F0947421CB7FFC0064D3C9 /* MGAlbumTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0947321CB7FFC0064D3C9 /* MGAlbumTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8F0943421CA66F90064D3C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F0941321CA66F70064D3C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F0941A21CA66F70064D3C9;
+			remoteInfo = MGPhotoAlbums;
+		};
+		F8F0943F21CA66F90064D3C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8F0941321CA66F70064D3C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8F0941A21CA66F70064D3C9;
+			remoteInfo = MGPhotoAlbums;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F8F0941B21CA66F70064D3C9 /* MGPhotoAlbums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGPhotoAlbums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F0941E21CA66F70064D3C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F8F0941F21CA66F70064D3C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F8F0942121CA66F70064D3C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F8F0942221CA66F70064D3C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F8F0942521CA66F70064D3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8F0942721CA66F90064D3C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8F0942A21CA66F90064D3C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8F0942C21CA66F90064D3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F0942D21CA66F90064D3C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8F0943321CA66F90064D3C9 /* MGPhotoAlbumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGPhotoAlbumsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F0943721CA66F90064D3C9 /* MGPhotoAlbumsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGPhotoAlbumsTests.m; sourceTree = "<group>"; };
+		F8F0943921CA66F90064D3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F0943E21CA66F90064D3C9 /* MGPhotoAlbumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGPhotoAlbumsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8F0944221CA66F90064D3C9 /* MGPhotoAlbumsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGPhotoAlbumsUITests.m; sourceTree = "<group>"; };
+		F8F0944421CA66F90064D3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8F0945121CA6A110064D3C9 /* MGAlbumsListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAlbumsListController.h; sourceTree = "<group>"; };
+		F8F0945221CA6A110064D3C9 /* MGAlbumsListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAlbumsListController.m; sourceTree = "<group>"; };
+		F8F0945321CA6A110064D3C9 /* MGAlbumsListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MGAlbumsListController.xib; sourceTree = "<group>"; };
+		F8F0945621CA6D9E0064D3C9 /* MGPhotoAlbums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGPhotoAlbums.h; sourceTree = "<group>"; };
+		F8F0945721CA6D9E0064D3C9 /* MGPhotoAlbums.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGPhotoAlbums.m; sourceTree = "<group>"; };
+		F8F0945921CB62F60064D3C9 /* MGAlbumsListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAlbumsListCell.h; sourceTree = "<group>"; };
+		F8F0945A21CB62F60064D3C9 /* MGAlbumsListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAlbumsListCell.m; sourceTree = "<group>"; };
+		F8F0945B21CB62F60064D3C9 /* MGAlbumsListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MGAlbumsListCell.xib; sourceTree = "<group>"; };
+		F8F0946621CB69FA0064D3C9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F8F0946721CB6D730064D3C9 /* MGAssetCollectionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAssetCollectionController.h; sourceTree = "<group>"; };
+		F8F0946821CB6D730064D3C9 /* MGAssetCollectionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAssetCollectionController.m; sourceTree = "<group>"; };
+		F8F0946C21CB6FE00064D3C9 /* MGAssetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAssetCell.h; sourceTree = "<group>"; };
+		F8F0946D21CB6FE00064D3C9 /* MGAssetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAssetCell.m; sourceTree = "<group>"; };
+		F8F0946E21CB6FE00064D3C9 /* MGAssetCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MGAssetCell.xib; sourceTree = "<group>"; };
+		F8F0947221CB7FFC0064D3C9 /* MGAlbumTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGAlbumTool.h; sourceTree = "<group>"; };
+		F8F0947321CB7FFC0064D3C9 /* MGAlbumTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGAlbumTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8F0941821CA66F70064D3C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F0943021CA66F90064D3C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F0943B21CA66F90064D3C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8F0941221CA66F70064D3C9 = {
+			isa = PBXGroup;
+			children = (
+				F8F0941D21CA66F70064D3C9 /* MGPhotoAlbums */,
+				F8F0943621CA66F90064D3C9 /* MGPhotoAlbumsTests */,
+				F8F0944121CA66F90064D3C9 /* MGPhotoAlbumsUITests */,
+				F8F0941C21CA66F70064D3C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8F0941C21CA66F70064D3C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0941B21CA66F70064D3C9 /* MGPhotoAlbums.app */,
+				F8F0943321CA66F90064D3C9 /* MGPhotoAlbumsTests.xctest */,
+				F8F0943E21CA66F90064D3C9 /* MGPhotoAlbumsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8F0941D21CA66F70064D3C9 /* MGPhotoAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0945021CA67380064D3C9 /* MGPhotoAlbums */,
+				F8F0941E21CA66F70064D3C9 /* AppDelegate.h */,
+				F8F0941F21CA66F70064D3C9 /* AppDelegate.m */,
+				F8F0942121CA66F70064D3C9 /* ViewController.h */,
+				F8F0942221CA66F70064D3C9 /* ViewController.m */,
+				F8F0947121CB7FD00064D3C9 /* Album */,
+				F8F0942421CA66F70064D3C9 /* Main.storyboard */,
+				F8F0942721CA66F90064D3C9 /* Assets.xcassets */,
+				F8F0942921CA66F90064D3C9 /* LaunchScreen.storyboard */,
+				F8F0942C21CA66F90064D3C9 /* Info.plist */,
+				F8F0946621CB69FA0064D3C9 /* PrefixHeader.pch */,
+				F8F0942D21CA66F90064D3C9 /* main.m */,
+			);
+			path = MGPhotoAlbums;
+			sourceTree = "<group>";
+		};
+		F8F0943621CA66F90064D3C9 /* MGPhotoAlbumsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0943721CA66F90064D3C9 /* MGPhotoAlbumsTests.m */,
+				F8F0943921CA66F90064D3C9 /* Info.plist */,
+			);
+			path = MGPhotoAlbumsTests;
+			sourceTree = "<group>";
+		};
+		F8F0944121CA66F90064D3C9 /* MGPhotoAlbumsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0944221CA66F90064D3C9 /* MGPhotoAlbumsUITests.m */,
+				F8F0944421CA66F90064D3C9 /* Info.plist */,
+			);
+			path = MGPhotoAlbumsUITests;
+			sourceTree = "<group>";
+		};
+		F8F0945021CA67380064D3C9 /* MGPhotoAlbums */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0945621CA6D9E0064D3C9 /* MGPhotoAlbums.h */,
+				F8F0945721CA6D9E0064D3C9 /* MGPhotoAlbums.m */,
+			);
+			path = MGPhotoAlbums;
+			sourceTree = "<group>";
+		};
+		F8F0947121CB7FD00064D3C9 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				F8F0945121CA6A110064D3C9 /* MGAlbumsListController.h */,
+				F8F0945221CA6A110064D3C9 /* MGAlbumsListController.m */,
+				F8F0945321CA6A110064D3C9 /* MGAlbumsListController.xib */,
+				F8F0945921CB62F60064D3C9 /* MGAlbumsListCell.h */,
+				F8F0945A21CB62F60064D3C9 /* MGAlbumsListCell.m */,
+				F8F0945B21CB62F60064D3C9 /* MGAlbumsListCell.xib */,
+				F8F0946721CB6D730064D3C9 /* MGAssetCollectionController.h */,
+				F8F0946821CB6D730064D3C9 /* MGAssetCollectionController.m */,
+				F8F0946C21CB6FE00064D3C9 /* MGAssetCell.h */,
+				F8F0946D21CB6FE00064D3C9 /* MGAssetCell.m */,
+				F8F0946E21CB6FE00064D3C9 /* MGAssetCell.xib */,
+				F8F0947221CB7FFC0064D3C9 /* MGAlbumTool.h */,
+				F8F0947321CB7FFC0064D3C9 /* MGAlbumTool.m */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8F0941A21CA66F70064D3C9 /* MGPhotoAlbums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F0944721CA66F90064D3C9 /* Build configuration list for PBXNativeTarget "MGPhotoAlbums" */;
+			buildPhases = (
+				F8F0941721CA66F70064D3C9 /* Sources */,
+				F8F0941821CA66F70064D3C9 /* Frameworks */,
+				F8F0941921CA66F70064D3C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGPhotoAlbums;
+			productName = MGPhotoAlbums;
+			productReference = F8F0941B21CA66F70064D3C9 /* MGPhotoAlbums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8F0943221CA66F90064D3C9 /* MGPhotoAlbumsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F0944A21CA66F90064D3C9 /* Build configuration list for PBXNativeTarget "MGPhotoAlbumsTests" */;
+			buildPhases = (
+				F8F0942F21CA66F90064D3C9 /* Sources */,
+				F8F0943021CA66F90064D3C9 /* Frameworks */,
+				F8F0943121CA66F90064D3C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F0943521CA66F90064D3C9 /* PBXTargetDependency */,
+			);
+			name = MGPhotoAlbumsTests;
+			productName = MGPhotoAlbumsTests;
+			productReference = F8F0943321CA66F90064D3C9 /* MGPhotoAlbumsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8F0943D21CA66F90064D3C9 /* MGPhotoAlbumsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8F0944D21CA66F90064D3C9 /* Build configuration list for PBXNativeTarget "MGPhotoAlbumsUITests" */;
+			buildPhases = (
+				F8F0943A21CA66F90064D3C9 /* Sources */,
+				F8F0943B21CA66F90064D3C9 /* Frameworks */,
+				F8F0943C21CA66F90064D3C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8F0944021CA66F90064D3C9 /* PBXTargetDependency */,
+			);
+			name = MGPhotoAlbumsUITests;
+			productName = MGPhotoAlbumsUITests;
+			productReference = F8F0943E21CA66F90064D3C9 /* MGPhotoAlbumsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8F0941321CA66F70064D3C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = maling;
+				TargetAttributes = {
+					F8F0941A21CA66F70064D3C9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F8F0943221CA66F90064D3C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F8F0941A21CA66F70064D3C9;
+					};
+					F8F0943D21CA66F90064D3C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F8F0941A21CA66F70064D3C9;
+					};
+				};
+			};
+			buildConfigurationList = F8F0941621CA66F70064D3C9 /* Build configuration list for PBXProject "MGPhotoAlbums" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8F0941221CA66F70064D3C9;
+			productRefGroup = F8F0941C21CA66F70064D3C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8F0941A21CA66F70064D3C9 /* MGPhotoAlbums */,
+				F8F0943221CA66F90064D3C9 /* MGPhotoAlbumsTests */,
+				F8F0943D21CA66F90064D3C9 /* MGPhotoAlbumsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8F0941921CA66F70064D3C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F0942B21CA66F90064D3C9 /* LaunchScreen.storyboard in Resources */,
+				F8F0942821CA66F90064D3C9 /* Assets.xcassets in Resources */,
+				F8F0947021CB6FE00064D3C9 /* MGAssetCell.xib in Resources */,
+				F8F0942621CA66F70064D3C9 /* Main.storyboard in Resources */,
+				F8F0945D21CB62F60064D3C9 /* MGAlbumsListCell.xib in Resources */,
+				F8F0945521CA6A110064D3C9 /* MGAlbumsListController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F0943121CA66F90064D3C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F0943C21CA66F90064D3C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8F0941721CA66F70064D3C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F0947421CB7FFC0064D3C9 /* MGAlbumTool.m in Sources */,
+				F8F0942321CA66F70064D3C9 /* ViewController.m in Sources */,
+				F8F0945C21CB62F60064D3C9 /* MGAlbumsListCell.m in Sources */,
+				F8F0942E21CA66F90064D3C9 /* main.m in Sources */,
+				F8F0946A21CB6D730064D3C9 /* MGAssetCollectionController.m in Sources */,
+				F8F0946F21CB6FE00064D3C9 /* MGAssetCell.m in Sources */,
+				F8F0942021CA66F70064D3C9 /* AppDelegate.m in Sources */,
+				F8F0945421CA6A110064D3C9 /* MGAlbumsListController.m in Sources */,
+				F8F0945821CA6D9E0064D3C9 /* MGPhotoAlbums.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F0942F21CA66F90064D3C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F0943821CA66F90064D3C9 /* MGPhotoAlbumsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F0943A21CA66F90064D3C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8F0944321CA66F90064D3C9 /* MGPhotoAlbumsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8F0943521CA66F90064D3C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F0941A21CA66F70064D3C9 /* MGPhotoAlbums */;
+			targetProxy = F8F0943421CA66F90064D3C9 /* PBXContainerItemProxy */;
+		};
+		F8F0944021CA66F90064D3C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8F0941A21CA66F70064D3C9 /* MGPhotoAlbums */;
+			targetProxy = F8F0943F21CA66F90064D3C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F8F0942421CA66F70064D3C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F0942521CA66F70064D3C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8F0942921CA66F90064D3C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8F0942A21CA66F90064D3C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8F0944521CA66F90064D3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8F0944621CA66F90064D3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8F0944821CA66F90064D3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MGPhotoAlbums/PrefixHeader.pch";
+				INFOPLIST_FILE = MGPhotoAlbums/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGPhotoAlbums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8F0944921CA66F90064D3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MGPhotoAlbums/PrefixHeader.pch";
+				INFOPLIST_FILE = MGPhotoAlbums/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGPhotoAlbums;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8F0944B21CA66F90064D3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGPhotoAlbumsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGPhotoAlbumsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGPhotoAlbums.app/MGPhotoAlbums";
+			};
+			name = Debug;
+		};
+		F8F0944C21CA66F90064D3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGPhotoAlbumsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGPhotoAlbumsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGPhotoAlbums.app/MGPhotoAlbums";
+			};
+			name = Release;
+		};
+		F8F0944E21CA66F90064D3C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGPhotoAlbumsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGPhotoAlbumsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGPhotoAlbums;
+			};
+			name = Debug;
+		};
+		F8F0944F21CA66F90064D3C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU4FCR75VS;
+				INFOPLIST_FILE = MGPhotoAlbumsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amberMobile.MGPhotoAlbumsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MGPhotoAlbums;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8F0941621CA66F70064D3C9 /* Build configuration list for PBXProject "MGPhotoAlbums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F0944521CA66F90064D3C9 /* Debug */,
+				F8F0944621CA66F90064D3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F0944721CA66F90064D3C9 /* Build configuration list for PBXNativeTarget "MGPhotoAlbums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F0944821CA66F90064D3C9 /* Debug */,
+				F8F0944921CA66F90064D3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F0944A21CA66F90064D3C9 /* Build configuration list for PBXNativeTarget "MGPhotoAlbumsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F0944B21CA66F90064D3C9 /* Debug */,
+				F8F0944C21CA66F90064D3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8F0944D21CA66F90064D3C9 /* Build configuration list for PBXNativeTarget "MGPhotoAlbumsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8F0944E21CA66F90064D3C9 /* Debug */,
+				F8F0944F21CA66F90064D3C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8F0941321CA66F70064D3C9 /* Project object */;
+}
